@@ -12,6 +12,7 @@ var gulp = require('gulp'),
 	uglify = require('gulp-uglify'),
 	rename = require('gulp-rename'),
 	sass = require('gulp-ruby-sass'),
+	plumber = require('gulp-plumber'),
 	autoprefixer = require('gulp-autoprefixer'),
 	browserSync = require('browser-sync');
 
@@ -28,6 +29,7 @@ gulp.task('scripts', function() {
 
 gulp.task('sass', function() {
   return sass('css/**/*.scss')
+	 	.pipe(plumber())
     .on('error', sass.logError)
 		.pipe(autoprefixer('last 2 versions'))
     .pipe(gulp.dest('css/'));
