@@ -4,6 +4,7 @@
 // gulp-rename
 // gulp-ruby-sass
 // gulp-autoprefixer
+// plumber
 // browser-sync
 //
 // npm "package name" --save-dev
