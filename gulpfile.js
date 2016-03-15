@@ -1,10 +1,17 @@
+// steps
+// ------------
+// npm install -g gulp
+// npm init
+// npm install gulp --save-dev
+// npm -g install browser-sync --no-optional
+// npm install gulp-uglify gulp-rename gulp-ruby-sass gulp-autoprefixer gulp-plumber browser-sync --save-dev
 // files used
 // ------------
 // gulp-uglify
 // gulp-rename
 // gulp-ruby-sass
 // gulp-autoprefixer
-// plumber
+// gulp-plumber
 // browser-sync
 //
 // npm "package name" --save-dev
